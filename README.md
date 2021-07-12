@@ -1,24 +1,17 @@
-# cordova-sample
+# Hello Cordova
 
 ## Project setup
-```
-npm install
+```bash
+$ npm install
+
+$ cd src-cordova
+$ cordova platform add android
+
+$ cd ..
+$ npm run cordova-prepare
 ```
 
-### Compiles and hot-reloads for development
+## Run
+```bash
+$ npm run cordova-serve-android
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
